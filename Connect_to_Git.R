@@ -8,6 +8,7 @@
 ##step 2
 
 ##create git hub account
+
 ## connect to github from terminal using
 ##git config --global user.name "sainathod"
 ##git config --global user.mail "sainath2214@gmail.com
@@ -15,3 +16,4 @@
 ## step 3
 
 ## with in Rstudio Create new project
+
