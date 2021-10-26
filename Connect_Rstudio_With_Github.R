@@ -3,7 +3,7 @@
 
 ## create github account and a repo in git 
 
-## create a pat in git for password 
+## create a pat in github for password 
 
 ## step 1
 
@@ -19,4 +19,10 @@
 
 ## step 3
 
-## with in Rstudio Create new project
+## with in Rstudio Create new version control project
+
+##new project >> version control >> git >> under git repository name copy name of 
+##the url from git repo will end .git 
+
+## under repo name give name of the repo and save in local by browsing loacation 
+
