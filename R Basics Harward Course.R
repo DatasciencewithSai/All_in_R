@@ -3,7 +3,9 @@
 ## This Course all about R basics and Data analysis visualization and manipulation 
 ## and productivity tools 
 
+##libraries
 
+library(ggplot2)
 
 
 ##Course Assignment 
@@ -61,9 +63,17 @@ heights[1032,] ### row value of that perticular index number
 max(heights$height)
 
 ?match
-x < 50:82
+x <- c(50:82)
 
-sum(heights$height %in% c(50:82))
+
+
+sum(heights$height %in% !x)
+
+sum(heights$height%%1==0)
+
+sum(!(x %in% heights$height))
+
+x%%1==0
 
 heights2 <- heights %>% mutate(ht_cm =height*2.54)  ## create new column 
 
@@ -87,10 +97,18 @@ library(dslabs)
 data(olive)
 head(olive)
 
+library(ggplot2)
+
+olive %>% ggplot(aes(palmitic, palmitoleic)) +geom_point()
 
 
+olive %>% ggplot(aes(eicosenoic))+geom_histogram()
 
 
+olive %>% ggplot(aes(region, palmitic))+geom_boxplot()
+
+
+olive %>% ggplot(aes(region, palmitic))+geom_boxplot()
 
 
 
