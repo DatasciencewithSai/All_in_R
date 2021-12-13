@@ -110,5 +110,61 @@ olive %>% ggplot(aes(region, palmitic))+geom_boxplot()
 
 olive %>% ggplot(aes(region, palmitic))+geom_boxplot()
 
+###notes on programming in R
+
+functions 
+1. if else 
+2. ifelse 
+3. any()
+4. all()
 
 
+#12/12
+##if else 
+  
+##ifelse usefull mainly with vectors 
+
+##ifelse(is.na(na_example),0,na_example) ##replace all NA values with zero 
+
+## any() is like "like any" in sql 
+## all is like "like all" in SQL 
+
+## USE identical to compare to functions are others 
+
+##for loops 
+
+##apply family functions 
+apply() 
+sapply()
+tapply()
+mapply()
+
+## other functions that are used are 
+
+split()
+cut 
+quantile()
+reduce 
+identical 
+unique()
+
+ifelse(heights$sex=="Female",1,2)
+
+ifelse(heights$sex=="Female",1,2)
+sum(ifelse(heights$sex=="Female",1,2))
+
+mean(ifelse(heights$height>72,heights$height,0))
+
+inches_to_ft <- function(x){
+  x/12
+}
+
+inches_to_ft(144)
+
+sum(ifelse(heights$height/12<5,1,0))
+
+head(heights2)
+
+head(heights$height/12)
+
+any(TRUE, FALSE, FALSE)
